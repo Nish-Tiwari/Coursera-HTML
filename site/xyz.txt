@@ -3,6 +3,10 @@ Hi
 
 hello
 
+<<<<<<< HEAD
 
 
 def
+=======
+bhv
+>>>>>>> 3124ff26b11e77121b091c6cf7922cdf892e7c27
