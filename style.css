@@ -22,6 +22,7 @@ section{
     position: relative;
     border:3px solid black;
     overflow: visible;
+    height:250px;
 }
 .one{
     background-color: antiquewhite;
