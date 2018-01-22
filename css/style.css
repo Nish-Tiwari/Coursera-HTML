@@ -23,15 +23,10 @@
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0b2d50;
 }
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
+
 
 #nav-list {
   margin-top: 10px;
@@ -39,13 +34,14 @@
 #nav-list a {
   color: #951C49;
   text-align: center;
+    font-size: 1.34em;
 }
 #nav-list a:hover {
   background: #E7E7E7;
+    font-weight: bold;
 }
-#nav-list a span {
-  font-size: 1.8em;
-}
+
+
 
 .container > h2{
     
@@ -53,22 +49,19 @@
     
 }
 #section1 ,#section2 ,#section3{    
-    
- 
-    padding: 30px;
+
+    padding-top: 20px;
  
 }
-
 .sec{
     background-color: antiquewhite;
-        position: relative;
-    border: 1px solid black;
+    position: relative;
+    border: 2px solid #5f3c0e;
     overflow: hidden;
 }
 #tile1{
     
     position: absolute;
-    top: 3px;
     width: 100%;
     text-align: center;
     font-size: 20px;
